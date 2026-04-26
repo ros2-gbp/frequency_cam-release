@@ -1,0 +1,12 @@
+Source: ros-kilted-frequency-cam
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-cmake-clang-format <!nocheck>, ros-kilted-ament-cmake-ros, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-cv-bridge, ros-kilted-event-camera-codecs, ros-kilted-event-camera-msgs, ros-kilted-image-transport, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rosbag2-cpp, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Homepage: https://index.ros.org/p/frequency_cam/#kilted
+Standards-Version: 3.9.2
+
+Package: ros-kilted-frequency-cam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-cv-bridge, ros-kilted-event-camera-codecs, ros-kilted-event-camera-msgs, ros-kilted-image-transport, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rosbag2-cpp, ros-kilted-std-msgs, ros-kilted-ros-workspace
+Description: frequency cam ROS/ROS2 package for event based cameras
