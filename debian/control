@@ -1,0 +1,12 @@
+Source: ros-lyrical-frequency-cam
+Section: misc
+Priority: optional
+Maintainer: "Bernd Pfrommer" <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-cmake-clang-format <!nocheck>, ros-lyrical-ament-cmake-ros, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-cv-bridge, ros-lyrical-event-camera-codecs, ros-lyrical-event-camera-msgs, ros-lyrical-image-transport, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosbag2-cpp, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/frequency_cam/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-frequency-cam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-cv-bridge, ros-lyrical-event-camera-codecs, ros-lyrical-event-camera-msgs, ros-lyrical-image-transport, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rosbag2-cpp, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: frequency cam ROS/ROS2 package for event based cameras
