@@ -1,3 +1,26 @@
+## frequency_cam (lyrical) - 3.1.2-2
+
+The packages in the `frequency_cam` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --rosdistro lyrical frequency_cam` on `Thu, 14 May 2026 12:28:37 -0000`
+
+The `frequency_cam` package was released.
+
+Version of package(s) in repository `frequency_cam`:
+
+- upstream repository: https://github.com/ros-event-camera/frequency_cam.git
+- release repository: https://github.com/ros2-gbp/frequency_cam-release.git
+- rosdistro version: `3.1.0-3`
+- old version: `3.1.2-1`
+- new version: `3.1.2-2`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## frequency_cam (lyrical) - 3.1.2-1
 
 The packages in the `frequency_cam` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release --ros-distro lyrical frequency_cam --no-pull-request` on `Tue, 12 May 2026 20:05:49 -0000`
